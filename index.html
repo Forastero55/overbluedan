@@ -1,12 +1,383 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OverBlue</title>
+    <title>Over Blue | Fotografía de Viajes & Blogs</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+
+    <!-- Hero Section / Encabezado -->
+    <header class="hero">
+        <nav class="navbar">
+            <div class="logo">OVER <span>BLUE</span></div>
+            <ul class="nav-links">
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#blog">Historias</a></li>
+                <li><a href="#sobre-mi">Sobre Mí</a></li>
+            </ul>
+        </nav>
+        <div class="hero-content">
+            <p class="subtitle">FOTOGRAFÍA DE VIAJES & HISTORIAS</p>
+            <h1>Descubre lo inexplorado a través del lente</h1>
+            <a href="#galeria" class="btn-primary">Explorar Galería</a>
+        </div>
+    </header>
+
+    <!-- Sección Galería -->
+    <section id="galeria" class="section">
+        <h2 class="section-title">Capturando la Esencia del Mundo</h2>
+        <p class="section-subtitle">Cada imagen es una ventana a un momento irrepetible.</p>
+        
+        <div class="grid-gallery">
+            <div class="card-photo">
+                <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80" alt="Paisaje montañoso">
+                <div class="overlay">
+                    <h3>Horizonte Profundo</h3>
+                    <p>Alpes Suizos</p>
+                </div>
+            </div>
+            <div class="card-photo">
+                <img src="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80" alt="Océano azul">
+                <div class="overlay">
+                    <h3>Abismo Azul</h3>
+                    <p>Océano Pacífico</p>
+                </div>
+            </div>
+            <div class="card-photo">
+                <img src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=800&q=80" alt="Ruta en carretera">
+                <div class="overlay">
+                    <h3>El Camino Libre</h3>
+                    <p>Ruta 66, EE.UU.</p>
+                </div>
+            </div>
+            <div class="card-photo">
+                <img src="https://images.unsplash.com/photo-1476514525535-ce74f45814e0?auto=format&fit=crop&w=800&q=80" alt="Atardecer nórdico">
+                <div class="overlay">
+                    <h3>Luces del Norte</h3>
+                    <p>Noruega</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Blog -->
+    <section id="blog" class="section bg-alt">
+        <h2 class="section-title">Bitácora de Viaje</h2>
+        <p class="section-subtitle">Relatos, experiencias y secretos detrás de la cámara.</p>
+
+        <div class="grid-blog">
+            <article class="blog-card">
+                <div class="blog-img">
+                    <img src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=800&q=80" alt="Mapa y cámara">
+                </div>
+                <div class="blog-info">
+                    <span class="tag">Guía</span>
+                    <h3>Cómo fotografiar bajo cielos nocturnos</h3>
+                    <p>Aprende las configuraciones clave de apertura y tiempo de exposición para congelar las estrellas.</p>
+                </div>
+            </article>
+
+            <article class="blog-card">
+                <div class="blog-img">
+                    <img src="https://images.unsplash.com/photo-1503220317375-aaad61436b1b?auto=format&fit=crop&w=800&q=80" alt="Mochilero en la cumbre">
+                </div>
+                <div class="blog-info">
+                    <span class="tag">Reflexión</span>
+                    <h3>El arte de viajar en solitario</h3>
+                    <p>Lo que aprendí al recorrer senderos remotos llevando solo una cámara y mi mochila.</p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- Botón Flotante de WhatsApp -->
+    <a href="https://wa.me/50240674823" class="whatsapp-btn" target="_blank" rel="noopener noreferrer" aria-label="Contactar por WhatsApp">
+        <svg viewBox="0 0 32 32">
+            <path d="M16 2a13.9 13.9 0 0 0-12 20.9L2 30l7.3-1.9A13.9 13.9 0 1 0 16 2zm0 25.5a11.5 11.5 0 0 1-5.9-1.6l-.4-.2-4.4 1.1 1.2-4.2-.3-.4a11.6 11.6 0 1 1 9.8 5.3zm6.4-8.6c-.3-.2-2-.9-2.3-1s-.6-.2-.8.2-.9 1.1-1.1 1.3-.4.2-.7 0a9.2 9.2 0 0 1-2.7-1.7 10.2 10.2 0 0 1-1.9-2.3c-.2-.3 0-.5.1-.7s.3-.4.5-.6l.3-.4c.1-.2.1-.3 0-.5s-.8-2-1.1-2.7c-.3-.7-.6-.6-.8-.6h-.7c-.2 0-.7.1-1 .5a4.4 4.4 0 0 0-1.4 3.3c0 1.9 1.4 3.8 1.6 4a16.8 16.8 0 0 0 6.5 5.7c2.3 1 2.8.8 3.3.7a2.8 2.8 0 0 0 1.9-1.3c.3-.5.3-1 .2-1.1s-.5-.2-.8-.4z"/>
+        </svg>
+    </a>
+
+    <!-- Pie de Página -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p class="quote">
+                «A través del lente no capturamos lo que vemos, sino los ecos invisibles de lo que alguna vez fuimos en el horizonte del tiempo.»
+            </p>
+            <p class="copyright">&copy; 2026 Over Blue. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html><!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Over Blue | Fotografía de Viajes & Blogs</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header / Navegación -->
+    <header class="hero">
+        <nav class="navbar">
+            <div class="logo">OVER <span>BLUE</span></div>
+            <ul class="nav-links">
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#blog">Historias</a></li>
+                <li><a href="#sobre-mi">Sobre Mí</a></li>
+            </ul>
+        </nav>
+        <div class="hero-content">
+            <p class="subtitle">FOTOGRAFÍA DE VIAJES & HISTORIAS</p>
+            <h1>Descubre lo inexplorado a través del lente</h1>
+            <a href="#galeria" class="btn-primary">Explorar Galería</a>
+        </div>
+    </header>
+
+    <!-- Sección Galería -->
+    <section id="galeria" class="section">
+        <h2 class="section-title">Capturando la Esencia del Mundo</h2>
+        <p class="section-subtitle">Haz clic en cualquier fotografía para desplegar la experiencia, más tomas y reflexiones.</p>
+        
+        <div class="grid-gallery">
+
+            <!-- Ítem Galería 1 -->
+            <div class="interactive-card">
+                <input type="checkbox" id="photo-toggle-1" class="toggle-input">
+                <label for="photo-toggle-1" class="card-photo">
+                    <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80" alt="Alpes Suizos">
+                    <div class="overlay">
+                        <h3>Horizonte Profundo</h3>
+                        <p>Alpes Suizos <span>+ Toca para ver más</span></p>
+                    </div>
+                </label>
+
+                <div class="expanded-content">
+                    <h4>Alpes Suizos: Entre el Hielo y el Silencio</h4>
+                    <p class="thought">«En las cumbres más altas, el viento no sopla: susurra secretos que solo la soledad puede comprender.»</p>
+                    <p>Llegar a este punto requirió cuatro horas de caminata bajo una nevada ligera. La luz rompió las nubes justo cuando la temperatura bajaba a cero, dejando al descubierto la verdadera magnitud del valle.</p>
+                    
+                    <div class="mini-gallery">
+                        <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=400&q=80" alt="Detalle del valle">
+                        <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=400&q=80" alt="Noche estrellada sobre la montaña">
+                    </div>
+                    <label for="photo-toggle-1" class="btn-close">Cerrar detalle ▲</label>
+                </div>
+            </div>
+
+            <!-- Ítem Galería 2 -->
+            <div class="interactive-card">
+                <input type="checkbox" id="photo-toggle-2" class="toggle-input">
+                <label for="photo-toggle-2" class="card-photo">
+                    <img src="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80" alt="Océano Pacífico">
+                    <div class="overlay">
+                        <h3>Abismo Azul</h3>
+                        <p>Océano Pacífico <span>+ Toca para ver más</span></p>
+                    </div>
+                </label>
+
+                <div class="expanded-content">
+                    <h4>Océano Pacífico: El Pulso Desconocido</h4>
+                    <p class="thought">«El mar es un espejo abisal; cuando miras fijamente el horizonte, terminas mirándote a ti mismo.»</p>
+                    <p>Capturar el azul profundo requiere calma y paciencia. Estas aguas guardan historias del origen de los tiempos, recordándonos lo pequeños que somos ante la inmensidad del agua.</p>
+                    
+                    <div class="mini-gallery">
+                        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=400&q=80" alt="Costa pacífica">
+                        <img src="https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=400&q=80" alt="Olas rompiendo">
+                    </div>
+                    <label for="photo-toggle-2" class="btn-close">Cerrar detalle ▲</label>
+                </div>
+            </div>
+
+            <!-- Ítem Galería 3 -->
+            <div class="interactive-card">
+                <input type="checkbox" id="photo-toggle-3" class="toggle-input">
+                <label for="photo-toggle-3" class="card-photo">
+                    <img src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=800&q=80" alt="Ruta en carretera">
+                    <div class="overlay">
+                        <h3>El Camino Libre</h3>
+                        <p>Ruta 66, EE.UU. <span>+ Toca para ver más</span></p>
+                    </div>
+                </label>
+
+                <div class="expanded-content">
+                    <h4>Ruta 66: La Nostalgia del Asfalto</h4>
+                    <p class="thought">«Un mapa solo muestra caminos; la ruta se construye con las paradas imprevistas.»</p>
+                    <p>Kilómetros de silencio roto únicamente por el motor y el viento seco. Viajar por esta franja es un viaje en el tiempo hacia el corazón de la América más profunda.</p>
+                    
+                    <div class="mini-gallery">
+                        <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=400&q=80" alt="Carretera al atardecer">
+                        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="Vista del desierto">
+                    </div>
+                    <label for="photo-toggle-3" class="btn-close">Cerrar detalle ▲</label>
+                </div>
+            </div>
+
+            <!-- Ítem Galería 4 -->
+            <div class="interactive-card">
+                <input type="checkbox" id="photo-toggle-4" class="toggle-input">
+                <label for="photo-toggle-4" class="card-photo">
+                    <img src="https://images.unsplash.com/photo-1476514525535-ce74f45814e0?auto=format&fit=crop&w=800&q=80" alt="Atardecer nórdico">
+                    <div class="overlay">
+                        <h3>Luces del Norte</h3>
+                        <p>Noruega <span>+ Toca para ver más</span></p>
+                    </div>
+                </label>
+
+                <div class="expanded-content">
+                    <h4>Noruega: El Fuego Helado</h4>
+                    <p class="thought">«A veces, la luz más brillante aparece en los lugares más fríos.»</p>
+                    <p>Aguardando horas a temperaturas bajo cero, los fiordos se iluminaron con una paleta dorada y violeta que parecía extraída de una pintura clásica.</p>
+                    
+                    <div class="mini-gallery">
+                        <img src="https://images.unsplash.com/photo-1517411032315-54ef2cb783bb?auto=format&fit=crop&w=400&q=80" alt="Fiordos nórdicos">
+                        <img src="https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?auto=format&fit=crop&w=400&q=80" alt="Nieve y montañas">
+                    </div>
+                    <label for="photo-toggle-4" class="btn-close">Cerrar detalle ▲</label>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Sección Historias -->
+    <section id="blog" class="section bg-alt">
+        <h2 class="section-title">Bitácora de Viaje & Historias</h2>
+        <p class="section-subtitle">Haz clic en cada historia para abrir el relato completo, imágenes y consejos de guía.</p>
+
+        <div class="grid-blog">
+
+            <!-- Historia 1 -->
+            <article class="interactive-story">
+                <input type="checkbox" id="story-toggle-1" class="toggle-input">
+                <label for="story-toggle-1" class="blog-card">
+                    <div class="blog-img">
+                        <img src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=800&q=80" alt="Mapa y cámara">
+                    </div>
+                    <div class="blog-info">
+                        <span class="tag">Guía & Fotografía</span>
+                        <h3>Cómo fotografiar bajo cielos nocturnos</h3>
+                        <p>Haz clic para desplegar la guía completa y el registro fotográfico.</p>
+                    </div>
+                </label>
+
+                <div class="full-story-content">
+                    <div class="story-header">
+                        <h3>Guía de Campo: La Poesía de la Noche</h3>
+                        <span class="story-subtitle">Capturando el firmamento sin prisa</span>
+                    </div>
+                    <p>La fotografía nocturna es un ejercicio de paciencia. Para congelar las estrellas, necesitas un trípode firme, una apertura amplia (f/2.8 o inferior) y un enfoque manual calibrado al infinito.</p>
+                    
+                    <div class="story-gallery">
+                        <img src="https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?auto=format&fit=crop&w=600&q=80" alt="Cielo nocturno">
+                        <img src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=600&q=80" alt="Vía Láctea">
+                    </div>
+
+                    <p class="reflection">«La oscuridad no es la ausencia de luz, sino el lienzo donde las estrellas eligen manifestarse.»</p>
+                    <label for="story-toggle-1" class="btn-close">Cerrar historia ▲</label>
+                </div>
+            </article>
+
+            <!-- Historia 2 -->
+            <article class="interactive-story">
+                <input type="checkbox" id="story-toggle-2" class="toggle-input">
+                <label for="story-toggle-2" class="blog-card">
+                    <div class="blog-img">
+                        <img src="https://images.unsplash.com/photo-1503220317375-aaad61436b1b?auto=format&fit=crop&w=800&q=80" alt="Mochilero en la cumbre">
+                    </div>
+                    <div class="blog-info">
+                        <span class="tag">Reflexión & Ruta</span>
+                        <h3>El arte de viajar en solitario</h3>
+                        <p>Haz clic para leer la bitácora de viaje y el ensayo visual.</p>
+                    </div>
+                </label>
+
+                <div class="full-story-content">
+                    <div class="story-header">
+                        <h3>Caminando hacia Adentro: El Viaje en Solitario</h3>
+                        <span class="story-subtitle">Desconexión y hallazgos en parajes remotos</span>
+                    </div>
+                    <p>Viajar solo te despoja de las máscaras cotidianas. Cuando no hay nadie con quien hablar, comienzas a escucharte. Cada paso en el sendero se convierte en una conversación con el paisaje.</p>
+                    
+                    <div class="story-gallery">
+                        <img src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=600&q=80" alt="Caminante en la ruta">
+                        <img src="https://images.unsplash.com/photo-1476514525535-ce74f45814e0?auto=format&fit=crop&w=600&q=80" alt="Descanso en la cumbre">
+                    </div>
+
+                    <p class="reflection">«No viajamos para escapar de la vida, sino para que la vida no se nos escape en la monotonía.»</p>
+                    <label for="story-toggle-2" class="btn-close">Cerrar historia ▲</label>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- Sección Sobre Mí -->
+    <section id="sobre-mi" class="section">
+        <h2 class="section-title">Sobre Mí</h2>
+        <p class="section-subtitle">Haz clic abajo para descubrir quién está detrás del lente.</p>
+
+        <div class="about-container">
+            <input type="checkbox" id="about-toggle" class="toggle-input">
+            
+            <label for="about-toggle" class="about-preview-card">
+                <div class="about-avatar">
+                    <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=500&q=80" alt="Fotógrafo Over Blue">
+                </div>
+                <div class="about-summary">
+                    <h3>El Explorador Detrás de Over Blue</h3>
+                    <p class="click-hint">✦ Haz clic para leer mi biografía y pensamientos profundos ✦</p>
+                </div>
+            </label>
+
+            <div class="about-full-details">
+                <div class="about-text">
+                    <h4>Biografía</h4>
+                    <p>Soy un fotógrafo y nómada visual fascinado por los rincones donde la naturaleza permanece intacta. <strong>Over Blue</strong> nació como un refugio creativo para documentar no solo los lugares que visito, sino la serenidad y la nostalgia que se siente al contemplarlos.</p>
+                    
+                    <h4>Coleccionar Momentos Simples</h4>
+                    <p>Más allá de las grandes montañas o los mares profundos, mi búsqueda personal consiste en aprender a apreciar lo imperceptible: la forma en que la niebla matutina abraza un bosque, el aroma a tierra mojada tras la lluvia o el crujido de las hojas secas bajo las botas.</p>
+
+                    <div class="quotes-grid">
+                        <blockquote class="quote-box">
+                            «Coleccionar momentos simples es la única riqueza que el tiempo jamás podrá arrebatarte.»
+                        </blockquote>
+                        <blockquote class="quote-box">
+                            «La naturaleza no tiene prisa, sin embargo, todo se realiza a su debido tiempo.»
+                        </blockquote>
+                    </div>
+
+                    <label for="about-toggle" class="btn-close">Ocultar información ▲</label>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Botón Flotante de WhatsApp -->
+    <a href="https://wa.me/50240674823" class="whatsapp-btn" target="_blank" rel="noopener noreferrer" aria-label="Contactar por WhatsApp">
+        <svg viewBox="0 0 32 32">
+            <path d="M16 2a13.9 13.9 0 0 0-12 20.9L2 30l7.3-1.9A13.9 13.9 0 1 0 16 2zm0 25.5a11.5 11.5 0 0 1-5.9-1.6l-.4-.2-4.4 1.1 1.2-4.2-.3-.4a11.6 11.6 0 1 1 9.8 5.3zm6.4-8.6c-.3-.2-2-.9-2.3-1s-.6-.2-.8.2-.9 1.1-1.1 1.3-.4.2-.7 0a9.2 9.2 0 0 1-2.7-1.7 10.2 10.2 0 0 1-1.9-2.3c-.2-.3 0-.5.1-.7s.3-.4.5-.6l.3-.4c.1-.2.1-.3 0-.5s-.8-2-1.1-2.7c-.3-.7-.6-.6-.8-.6h-.7c-.2 0-.7.1-1 .5a4.4 4.4 0 0 0-1.4 3.3c0 1.9 1.4 3.8 1.6 4a16.8 16.8 0 0 0 6.5 5.7c2.3 1 2.8.8 3.3.7a2.8 2.8 0 0 0 1.9-1.3c.3-.5.3-1 .2-1.1s-.5-.2-.8-.4z"/>
+        </svg>
+    </a>
+
+    <!-- Pie de Página -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p class="quote">
+                «A través del lente no capturamos lo que vemos, sino los ecos invisibles de lo que alguna vez fuimos en el horizonte del tiempo.»
+            </p>
+            <p class="copyright">&copy; 2026 Over Blue. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
 </body>
 </html>
